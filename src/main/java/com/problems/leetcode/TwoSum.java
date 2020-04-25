@@ -36,3 +36,10 @@ public class TwoSum {
 	}
 
 }
+
+/**
+ * Time Complexity - : O(n^2)
+ * Space Complexity : 0(1)
+ * 
+ * */
+
