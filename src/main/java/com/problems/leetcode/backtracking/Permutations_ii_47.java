@@ -49,7 +49,9 @@ public class Permutations_ii_47 {
 				 continue;
 			 }
 			 
-			
+			 if (i>0 && nums[i]==nums[i-1] && !visited[i-1]) {
+				 continue;
+			 }
 			 current.add(nums[i]);
 			 visited[i]=true;
 			 helper(output,current,nums,visited);

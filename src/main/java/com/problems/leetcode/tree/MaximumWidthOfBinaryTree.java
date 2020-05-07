@@ -66,7 +66,6 @@ inspired by dicco in the cooments
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
 public class MaximumWidthOfBinaryTree {
 
